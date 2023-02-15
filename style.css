@@ -1,0 +1,88 @@
+body {
+  background-color: #ff9900;
+  cursor: default;
+  text-align: center;
+  margin: 10;
+}
+.timer {
+  margin-top: 300px;
+  font-size: 100px;
+}
+.miliSec {
+  font-size: 50px;
+}
+.miliSec2 {
+  font-size: 50px;
+}
+.container_button button {
+  height: 100px;
+  width: 250px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-family: monospace;
+  background: none;
+  border: none;
+}
+.container_button {
+  display: flex;
+  place-content: center;
+}
+/* #start{
+    height: 100px;
+    width: 250px;
+    padding: 0px;
+    margin-left: 140px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: monospace;
+    background: none;
+    border: none;
+}
+#stop{
+    height: 100px;
+    width: 250px;
+    padding: 0px;
+    margin-left: 280px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: monospace;
+    background: none;
+    border: none;
+    
+}
+
+
+#reset{
+    height: 100px;
+    width: 250px;
+    padding: 0px;
+    margin-left: 300px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: monospace;
+    border: none;
+    background: none;
+} */
+footer a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+.footerClass {
+  margin-top: 250px;
+}
+footer a:hover {
+  background-color: white;
+}
+#reset:hover {
+  background-color: white;
+}
+
+#stop:hover {
+  background-color: white;
+}
+
+#start:hover {
+  background-color: white;
+}
