@@ -5,7 +5,7 @@ body {
   margin: 10;
 }
 .timer {
-  margin-top: 300px;
+  margin-top: 200px;
   font-size: 100px;
 }
 .miliSec {
@@ -102,7 +102,7 @@ body {
 } */
 footer a {
   font-size: 20px;
-  color: black;
+  color: grey;
   text-decoration: none;
 }
 .footerClass {
