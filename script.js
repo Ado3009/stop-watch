@@ -123,3 +123,32 @@ stopButton.addEventListener('click', e => {
     clearInterval(intervalId);
   }
 });
+
+const siwtchBack = () => {
+  document.querySelector('.timer').style.color = 'black';
+  document.querySelector('body').style.backgroundColor = '#ff9900';
+  let buttons = document.querySelectorAll('.color');
+  for (let i = 0; i < buttons.length; i++) {
+    buttons[i].style.color = 'black';
+  }
+  document.querySelector('.dark').style.display = 'block';
+  document.querySelector('.switch').style.display = 'none';
+};
+
+let buttonForColor = document.querySelector('.dark');
+const darkMode = () => {
+  document.querySelector('.timer').style.color = 'white';
+  document.querySelector('body').style.backgroundColor = 'black';
+  let buttons = document.querySelectorAll('.color');
+  for (let i = 0; i < buttons.length; i++) {
+    buttons[i].style.color = 'white';
+  }
+  buttonForColor.style.display = 'none';
+  let changeButton = document.querySelector('.switch');
+  changeButton.style.display = 'block';
+};
+
+buttonForColor.addEventListener('click', darkMode);
+let changeButton = document
+  .querySelector('.switch')
+  .addEventListener('click', siwtchBack);
