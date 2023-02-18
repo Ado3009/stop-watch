@@ -28,6 +28,8 @@ const displayFunction = e => {
 
   if (buttonId === 'start') {
     intervalId = setInterval(updateTimer, 10);
+    resetButton.disabled = true;
+    startButton.disabled = true;
   }
 };
 function clearInterval1() {
@@ -120,6 +122,8 @@ stopButton.addEventListener('click', e => {
   e.preventDefault();
   let buttonId = e.target.id;
   if (buttonId === 'stop') {
+    startButton.disabled = false;
+    resetButton.disabled = false;
     clearInterval(intervalId);
   }
 });
