@@ -7,6 +7,10 @@
     <link rel="icon" href="images/ado128.jpg" />
     <title>StopWatch</title>
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/687694d073.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="mode">
@@ -24,11 +28,37 @@
       <button class="color" id="stop">Stop</button>
       <button class="color" id="reset">Reset</button>
     </div>
+    <div class="save-button">
+      <button class="color" id="save">Save</button>
+    </div>
+    <div class="scores"></div>
+
+    <div class="stats">
+      <button class="close-modal close">X</button>
+      <input type="text" placeholder="Name" class="nameOfScores" />
+      <div class="here">
+        <span id="leftSave" class="spremi">0</span
+        ><span id="leftSave2" class="spremi">0</span>:<span
+          id="rightSave"
+          class="spremi"
+          >0</span
+        ><span id="rightSave2" class="spremi">0</span
+        ><span id="milisecSave" class="milisecSpremi">0</span>
+      </div>
+      <button class="save">save</button>
+    </div>
+    <div class="overlay"></div>
     <div class="footerClass">
       <footer>
-        <a href="https://www.instagram.com/ado_s20/" class="instagram"
-          >My instagram &copy;</a
-        >
+        <a href="https://www.facebook.com/profile.php?id=100009553449752">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://github.com/Ado3009">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/ado_s20/">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
       </footer>
     </div>
 
